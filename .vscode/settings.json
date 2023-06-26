@@ -1,0 +1,5 @@
+{
+    "editor.suggest.showEvents": true,
+    "tailwindCSS.emmetCompletions": true,
+    "C_Cpp.default.compilerPath": ""
+}

@@ -1,0 +1,12 @@
+@import '/node_modules/bootstrap/scss/bootstrap.scss';
+
+//ABSTRACTS
+@import './abstracts/_functions';
+@import './abstracts/_mixins';
+@import './abstracts/_variables';
+
+//BASICS
+@import './basics/_animations';
+@import './basics/_base';
+@import './basics/_typography';
+@import './basics/_utilities';
