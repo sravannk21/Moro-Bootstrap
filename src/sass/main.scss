@@ -1,5 +1,3 @@
-@import '/node_modules/bootstrap/scss/bootstrap.scss';
-
 //ABSTRACTS
 @import './abstracts/_functions';
 @import './abstracts/_mixins';
@@ -10,3 +8,26 @@
 @import './basics/_base';
 @import './basics/_typography';
 @import './basics/_utilities';
+
+//layout
+@import './layout/_header';
+@import './layout/_hero';
+@import './layout/_button';
+@import './layout/_testimonial';
+@import './layout/_banner';
+
+//components
+@import './compoents/_services';
+@import './compoents/_portfolio';
+@import './compoents/_contact';
+@import './compoents/_our-team';
+
+//bootstrap
+@import './bootstrap/mixins';
+@import './bootstrap/functions';
+
+//fontawesome
+@import './fontawesome6/scss/fontawesome.scss';
+@import './fontawesome6/scss/brands.scss';
+@import './fontawesome6/scss/solid.scss';
+@import './fontawesome6/scss/regular.scss'

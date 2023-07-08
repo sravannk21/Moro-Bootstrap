@@ -6,6 +6,9 @@
     margin: 0;
     box-sizing: inherit;
 }
+*:focus {
+    outline: none;
+}
 
 html {
     //this is using for overall page rem unit
@@ -14,4 +17,8 @@ html {
 body{
     box-sizing: border-box;
     font-family: 'Lato', sans-serif;
+}
+.logo {
+    width: 12rem;
+    height: 12rem;
 }

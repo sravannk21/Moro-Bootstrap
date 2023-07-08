@@ -1,0 +1,7 @@
+@mixin button {
+    text-decoration: none;
+    color: $color-white;
+    font-size: $default-paragraph-size;
+    background-size: 200%;
+    transition: all .3s;
+}

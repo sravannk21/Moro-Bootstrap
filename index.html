@@ -1,12 +1,601 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Team Moro</title>
-    <link href="./build/css/style.css" rel="stylesheet" type="text/css"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Team Moro</title>
+  <link href="./build/css/style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="./src/vendors/owl-carousal/owl.carousel.min.css">
+  <link rel="stylesheet" href="./src/vendors/owl-carousal/owl.theme.default.css">
+  <link href="./src/vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
 </head>
+
 <body>
-    <h1>hello world</h1>
+  <header class="header">
+    <div class="container p-0">
+      <nav class="navbar navbar-expand-lg navbar-light py-5">
+        <a class="navbar-brand" href="#">Hello</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-md-auto gap-2">
+            <li class="nav-item rounded">
+              <a class="nav-link active" aria-current="page" href="#"><i class="bi bi-house-fill me-2"></i>Home</a>
+            </li>
+            <li class="nav-item rounded">
+              <a class="nav-link" href="#"><i class="bi bi-people-fill me-2"></i>About</a>
+            </li>
+            <li class="nav-item rounded">
+              <a class="nav-link" href="#"><i class="bi bi-telephone-fill me-2"></i>Contact</a>
+            </li>
+            <li class="nav-item rounded">
+              <a class="nav-link" href="#"><i class="bi bi-telephone-fill me-2"></i>Service</a>
+            </li>
+            <li class="nav-item rounded">
+              <a class="nav-link" href="#"><i class="bi bi-telephone-fill me-2"></i>Works</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="header__caption-box">
+        <h1 class="primary-heading">
+          <sapn class="header__caption-box--main">Welcome to Team Moro</sapn>
+          <span class="header__caption-box--sub" id="ityped"></span>
+        </h1>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="u-padding-big bg-light">
+      <div class="container">
+        <div class="row hero-section my-auto">
+          <div class="col-md-8" data-aos="fade-up"
+          data-aos-offset="10"
+          data-aos-delay="10"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="true"
+          data-aos-once="false">
+            <h2 class="heading-secondary">This is us</h2>
+            <p class="paragraph w-75 my-5">A marketing agency that creates stories to express
+              who you are while connecting with your most coveted
+              audiences. It's about stirring emotion and inspiring
+              action. The kind that leads to revenue. We believe the
+              best brands tell stories, which is why we partner with
+              our clients to create impactful work that not only
+              represents their business, but also connects them
+              with people emotionally. Through strategy, design,
+              content, and technology, we bring brands to life.</p>
+            <p class="paragraph w-75">
+              Our multi-disciplinary approach fuses
+              print and digital media to unleash
+              creativity and deliver brand solutions
+              that elevate your business.
+            </p>
+            <div class="u-margin-medium">
+              <a href="#" class="btn-main">About Us &rarr;</a>
+            </div>
+          </div>
+          <div class="col-md-4" data-aos="fade-up"
+          data-aos-offset="10"
+          data-aos-delay="10"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="true"
+          data-aos-once="false">
+            <img src="./build/img/typography.png" class="img-fluid" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="our-services u-padding-big">
+      <div class="container">
+        <h2 class="heading-secondary">We Shape the Perfect Solutions.</h2>
+        <div class="row my-5 u-padding-big">
+          <div class="col-md-12 col-lg-8">
+            <div class="row gap-5">
+              <div class="col col-md-5 col-lg-3 our-services__service-box">
+                <div class="p-5 px-md-2">
+                  <i class="fa-solid fa-globe fs-1 p-4 text-white bg-dark rounded-circle"></i>
+                  <h3 class="heading-third my-5">Website Development</h3>
+                </div>
+              </div>
+              <div class="col col-md-5 col-lg-3 our-services__service-box">
+                <div class="p-5 px-md-2">
+                  <i class="fa-sharp fa-solid fa-pen-ruler fs-1 p-4 text-white bg-dark rounded-circle"></i>
+                  <h3 class="heading-third my-5">
+                    Graphic
+                    Designing</h3>
+                </div>
+              </div>
+              <div class="col col-md-5 col-lg-3 our-services__service-box">
+                <div class="p-5 px-md-2">
+                  <i class="fa-sharp fa-solid fa-bullhorn fs-1 p-4 text-white bg-dark rounded-circle"></i>
+                  <h3 class="heading-third my-5">Digital
+                    Marketing</h3>
+                </div>
+              </div>
+              <div class="col col-md-5 col-lg-3 our-services__service-box">
+                <div class="p-5 px-md-2">
+                  <i class="fa-solid fa-lightbulb fs-1 p-4 text-white bg-dark rounded-circle"></i>
+                  <h3 class="heading-third my-5">SEO & Content
+                    Writing</h3>
+                </div>
+              </div>
+              <div class="col col-md-5 col-lg-3 our-services__service-box">
+                <div class="p-5 px-md-2">
+                  <i class="fa-sharp fa-solid fa-font-awesome fs-1 p-4 text-white bg-dark rounded-circle"></i>
+                  <h3 class="heading-third my-5">Branding</h3>
+                </div>
+              </div>
+              <div class="col col-md-5 col-lg-3 our-services__service-box">
+                <div class="p-5 px-md-2">
+                  <i class="fa-solid fa-camera fa-bullhorn fs-1 p-4 text-white bg-dark rounded-circle"></i>
+                  <h3 class="heading-third my-5">PHOTOGRAPHY & VIDEOGRAPHY</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="d-none d-lg-flex col-md-12 col-lg-4 position-relative">
+            <img src="./build/img/service-side.jpg" class="img-fluid"/>
+            <div>
+              <h3 class="heading-third position-absolute top-50 start-50 translate-middle text-white">
+                Ready to the Most out of Your Creativity?
+              </h3>
+            </div>
+          </div>
+      </div>
+    </section>
+
+    <section class="our-clients u-padding-big bg-light">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-4 client-bg">
+            <img src="./build/img/client-section.jpg" class="img-fluid" />
+          </div>
+          <div class="col-md-8 my-auto">
+            <h2 class="heading-secondary py-3">Outstanding Digital Experience</h2>
+            <p class="paragraph w-75">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam exercitationem porro provident voluptatem ab dicta eligendi labore et! Obcaecati assumenda repudiandae minus.</p>
+            <div class="owl-carousel w-75 text-center my-5" id="owl-home">
+              <span>
+                <img src="./build/img/brand1.png" class="img-fluid"/>
+              </span>
+              <span>
+                <img src="./build/img/brand2.png" class="img-fluid"/>
+              </span>
+              <span>
+                <img src="./build/img/brand3.png" class="img-fluid"/>
+              </span>
+              <span>
+                <img src="./build/img/brand4.png" class="img-fluid"/>
+              </span>
+              <span>
+                <img src="./build/img/brand5.png" class="img-fluid"/>
+              </span>
+              <span>
+                <img src="./build/img/brand6.png" class="img-fluid"/>
+              </span>
+              <span>
+                <img src="./build/img/brand7.png" class="img-fluid"/>
+              </span>
+              <span>
+                <img src="./build/img/brand8.png" class="img-fluid"/>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="portfolio u-padding-big">
+      <div class="container">
+        <h2 class="heading-secondary mb-5">Recent projects</h2>
+        <div class="row u-padding-big">
+          <div class="col-md-3 work-img position-relative mb-5 mb-md-0">
+            <img src="./build/img/project-1.jpg" class="img-fluid" alt="">
+            <div class="work-info position-absolute bottom-0">
+              <h4 class="heading-third text-uppercase text-left">name of project</h4>
+              <a href="#" class="btn-plane mt-5 text-left">All works &rarr;</a>
+            </div>
+          </div>
+          <div class="col-md-3 work-img position-relative mb-5 mb-md-0">
+            <img src="./build/img/project-2.jpg" class="img-fluid" alt="">
+            <div class="work-info position-absolute bottom-0">
+              <h4 class="heading-third text-uppercase text-left">name of project</h4>
+              <a href="#" class="btn-plane mt-5 text-left">All works &rarr;</a>
+            </div>
+          </div>
+          <div class="col-md-3 work-img position-relative mb-5 mb-md-0">
+            <img src="./build/img/project-3.jpg" class="img-fluid" alt="">
+            <div class="work-info position-absolute bottom-0">
+              <h4 class="heading-third text-uppercase text-left">name of project</h4>
+              <a href="#" class="btn-plane mt-5 text-left">All works &rarr;</a>
+            </div>
+          </div>
+          <div class="col-md-3 work-img position-relative mb-5 mb-md-0">
+            <img src="./build/img/project-4.jpg" class="img-fluid" alt="">
+            <div class="work-info position-absolute bottom-0">
+              <h4 class="heading-third text-uppercase text-left">name of project</h4>
+              <a href="#" class="btn-plane mt-5 text-left">All works &rarr;</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-us u-padding-big">
+      <div class="container text-center">
+        <h2 class="heading-secondary text-center text-white">Contact Us</h2>
+      <p class="paragraph w-75 mt-5 mx-auto text-center text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam eius, qui, quidem ipsum unde hic tempora, ea voluptate repellat nemo explicabo totam quisquam omnis. Quaerat velit quo ratione tenetur harum.</p>
+      <div class="mt-5">
+        <a href="#" class="btn-main">Contact us &rarr;</a>
+      </div>
+      </div>
+    </section>
+
+    <!-- <section class="what-we-do u-padding-big">
+      <div class="container">
+        <h2 class="heading-secondary text-center">What we do</h2>
+        <div class="row gx-5 gy-5">
+          <div class="col-md-5" data-aos="zoom-in"
+          data-aos-offset="10"
+          data-aos-delay="10"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="true"
+          data-aos-once="false">
+            <img src="./build/img/BRANDING.png" class="img-fluid" />
+          </div>
+          <div class="col-md-7 my-auto" data-aos="zoom-in"
+          data-aos-offset="10"
+          data-aos-delay="10"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="true"
+          data-aos-once="false">
+            <h3 class="heading-third mb-5">Branding</h3>
+            <p class="paragraph">Your brand defines the face value your product has in
+              the market. The quality of the products should be
+              proclaimed by a well-crafted advertisement.
+              Manifesting all of the specialities of your product can
+              impact the market and lure the consumers into buying
+              your products. We, at MORO, will assist you in building
+              up a reliable and authentic brand portfolio which can
+              scale up your business.</p>
+            <div class="u-margin-medium">
+              <a href="#" class="btn-main">Know More &rarr;</a>
+            </div>
+          </div>
+        </div>
+        <div class="row flex-sm-row-reverse gx-5 gy-5" data-aos="zoom-in"
+        data-aos-offset="10"
+        data-aos-delay="10"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out"
+        data-aos-mirror="true"
+        data-aos-once="false">
+          <div class="col-md-5">
+            <img src="./build/img/DIGITAL MARKETING.png" class="img-fluid" />
+          </div>
+          <div class="col-md-7 my-auto" data-aos="zoom-in"
+          data-aos-offset="10"
+          data-aos-delay="10"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="true"
+          data-aos-once="false">
+            <h3 class="heading-third mb-5">DIGITAL MARKETING</h3>
+            <p class="paragraph">Advertising field is completely revolutionised with
+              the arrival of digital marketing. Both the
+              consumers and the producers are just a click
+              away. MORO is happy to help you to associate
+              with your customers and escalate your
+              business. Let us help you with this cost and time
+              effective strategy.</p>
+            <div class="u-margin-medium">
+              <a href="#" class="btn-main">Know More &rarr;</a>
+            </div>
+          </div>
+        </div>
+        <div class="row gx-5 gy-5">
+          <div class="col-md-5" data-aos="zoom-in"
+          data-aos-offset="10"
+          data-aos-delay="10"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="true"
+          data-aos-once="false">
+            <img src="./build/img/PHOTOGRAPHY & VIDEOGRAPHY.png" class="img-fluid" />
+          </div>
+          <div class="col-md-7 my-auto" data-aos="zoom-in"
+          data-aos-offset="10"
+          data-aos-delay="10"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="true"
+          data-aos-once="false">
+            <h3 class="heading-third mb-5">PHOTOGRAPHY & VIDEOGRAPHY</h3>
+            <p class="paragraph">Technological advancement has influenced the way
+              people perceive entertainment and information.
+              Individuals turn to videos and images in order to
+              satisfy their needs. With surplus content at their
+              disposal, viewers became discrete in selecting the
+              content they consume. Therefore, you should be well
+              aware of the potential of your videos and visual content.
+              Our employers at MORO will provide you the best services in
+              this regard.</p>
+            <div class="u-margin-medium">
+              <a href="#" class="btn-main">Know More &rarr;</a>
+            </div>
+          </div>
+        </div>
+        <div class="row flex-sm-row-reverse gx-5 gy-5">
+          <div class="col-md-5" data-aos="zoom-in"
+          data-aos-offset="10"
+          data-aos-delay="10"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="true"
+          data-aos-once="false">
+            <img src="./build/img/STRATEGY.png" class="img-fluid" />
+          </div>
+          <div class="col-md-7 my-auto" data-aos="zoom-in"
+          data-aos-offset="10"
+          data-aos-delay="10"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="true"
+          data-aos-once="false">
+            <h3 class="heading-third mb-5">STRATEGY</h3>
+            <p class="paragraph">For anyone who aspires to reach a precise
+              destination, the perfect pathway is a prerequisite.
+              We will assist you in framing the best strategy
+              appropriate for your business and we ensure
+              that the strategies suggested by MORO, will fit
+              the bill, indeed.</p>
+            <div class="u-margin-medium">
+              <a href="#" class="btn-main">Know More &rarr;</a>
+            </div>
+          </div>
+        </div>
+        <div class="row gx-5 gy-5">
+          <div class="col-md-5" data-aos="zoom-in"
+          data-aos-offset="10"
+          data-aos-delay="10"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="true"
+          data-aos-once="false">
+            <img src="./build/img/DESIGN.png" class="img-fluid" />
+          </div>
+          <div class="col-md-7 my-auto" data-aos="zoom-in"
+          data-aos-offset="10"
+          data-aos-delay="10"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="true"
+          data-aos-once="false">
+            <h3 class="heading-third mb-5">DESIGN</h3>
+            <p class="paragraph">Though beauty lies in the eye of the
+              beholder, there are certain norms in
+              graphical design which is capable of
+              impressing every beholder. The design,
+              graphics, images, and format of your posters
+              can immensely impress the audience and
+              prompt them to try and test your products.
+              The technicians at MORO are well trained to
+              create unique and elegant graphics and
+              designs for every posters we make.</p>
+            <div class="u-margin-medium">
+              <a href="#" class="btn-main">Know More &rarr;</a>
+            </div>
+          </div>
+        </div>
+        <div class="row flex-sm-row-reverse gx-5 gy-5">
+          <div class="col-md-5" data-aos="zoom-in"
+          data-aos-offset="10"
+          data-aos-delay="10"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="true"
+          data-aos-once="false">
+            <img src="./build/img/WEB DEVELOPMENT.png" class="img-fluid" />
+          </div>
+          <div class="col-md-7 my-auto" data-aos="zoom-in"
+          data-aos-offset="10"
+          data-aos-delay="10"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="true"
+          data-aos-once="false">
+            <h3 class="heading-third mb-5">WEB DEVELOPMENT</h3>
+            <p class="paragraph">We are artists with a brush and HTML. By
+              running our agile fingers on the keys, we use a
+              unique blend of UX and UI to create a
+              lead-generating masterpiece that tells the
+              world who you are and shows the visitors
+              where to go.</p>
+            <div class="u-margin-medium">
+              <a href="#" class="btn-main">Know More &rarr;</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <section class="testimonial u-padding-big">
+      <div class="container">
+        <h2 class="heading-secondary text-center">What our client says</h2>
+        <div class="row u-padding-big">
+          <div class="col-md-4 p-5 text-left">
+            <div class="testimonial-box">
+              <div>
+                <img src="./build/img/user.png" class="img-fluid w-25" alt="">
+              </div>
+              <h3 class="heading-third py-5">Client name</h3>
+              <p class="paragraph">&ldquo; Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae repellendus asperiores.&rdquo;</p>
+            </div>
+          </div>
+          <div class="col-md-4 p-5 text-left mt-5">
+            <div class="testimonial-box">
+              <div>
+                <img src="./build/img/user.png" class="img-fluid w-25" alt="">
+              </div>
+              <h3 class="heading-third py-5">Client name</h3>
+              <p class="paragraph">&ldquo; Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae repellendus asperiores.&rdquo;</p>
+            </div>
+          </div>
+          <div class="col-md-4 p-5 text-left">
+            <div class="testimonial-box">
+              <div>
+                <img src="./build/img/user.png" class="img-fluid w-25" alt="">
+              </div>
+              <h3 class="heading-third py-5">Client name</h3>
+              <p class="paragraph">&ldquo; Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae repellendus asperiores.&rdquo;</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- <section class="u-padding-big bg-light">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-6 my-auto">
+            <h1 class="primary-heading mb-5">Want to WOW Your Customers</h1>
+          </div>
+          <div class="col-md-6">
+            <form action="#" method="post" enctype="multipart/form-data">
+              <div class="container">
+                <div class="row mb-5">
+                  <div class="col-md-6">
+                    <input type="text" placeholder="Name" class="w-75 p-4 border fs-2 text-black bg-transparent"/>
+                  </div>
+                  <div class="col-md-6">
+                    <input type="text" placeholder="Email" class="w-75 p-4 border fs-2 text-black bg-transparent"/>
+                  </div>
+                </div>
+                <div class="row mt-5">
+                  <div class="col-md-6">
+                    <input type="text" placeholder="Phone" class="w-75 p-4 border fs-2 text-black bg-transparent"/>
+                  </div>
+                  <div class="col-md-6">
+                    <input type="text" placeholder="Website" class="w-75 p-4 border fs-2 text-black bg-transparent border-bottom"/>
+                  </div>
+                  <div class="col-md-11 mt-5">
+                    <textarea placeholder="Message" class="border bg-transparent w-100 fs-2 p-4 u-height"></textarea>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section> -->
+    <footer class="footer u-padding-big bg-dark text-white">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <span class="d-table align-middle">
+              <i class="fa-solid fa-map display-3 text-danger d-table-cell"></i>
+              <span class="align-middle d-table-cell">
+                <p class="paragraph u-padding-left">
+                  Team Moro, 1st floor,<br/>
+                  Manatti Tower,Manna<br/>
+                   Taliparamba - 670141
+                </p>
+              </span>
+            </span>
+          </div>
+          <div class="col-md-4">
+            <span class="d-table align-middle">
+              <i class="fa-regular fa-message display-3 text-danger d-table-cell"></i>
+              <span class="align-middle d-table-cell">
+                <p class="paragraph u-padding-left">
+                  800 2534 236<br/>
+                  hi@teammoro.in
+                </p>
+              </span>
+            </span>
+          </div>
+          <div class="col-md-4">
+            <span class="d-table align-middle">
+              <i class="fa-sharp fa-regular fa-clock display-3 text-danger d-table-cell"></i>
+              <span class="align-middle d-table-cell">
+                <p class="paragraph u-padding-left">
+                  Mon - sat: 9.30am to 7.30pm<br/>
+                  Sunday: closed
+                </p>
+              </span>
+            </span>
+          </div>
+        </div>
+      </div>
+      <hr/>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h4 class="heading-four py-5">
+              About Us
+            </h4>
+            <p class="paragraph">
+              We work with a passion of taking challenges and creating new ones in advertising sector.
+            </p>
+            <div class="mt-5">
+              <i class="fa-brands fa-facebook fs-1"></i>
+            <i class="fa-brands fa-instagram fs-1 u-padding-left"></i>
+            <i class="fa-brands fa-behance fs-1 u-padding-left"></i>
+            <i class="fa-brands fa-whatsapp fs-1 u-padding-left"></i>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <h4 class="heading-four py-5">
+              Explore links
+            </h4>
+            <ul class="list-unstyled">
+              <li class="fs-1">
+                <a class="text-decoration-none paragraph" href="#"><i class="bi bi-people-fill me-2"></i>About</a>
+              </li>
+              <li class="fs-1">
+                <a class="text-decoration-none paragraph" href="#"><i class="bi bi-telephone-fill me-2"></i>Contact</a>
+              </li>
+              <li class="fs-1">
+                <a class="text-decoration-none paragraph" href="#"><i class="bi bi-telephone-fill me-2"></i>Service</a>
+              </li>
+              <li class="fs-1">
+                <a class="text-decoration-none paragraph"href="#"><i class="bi bi-telephone-fill me-2"></i>Works</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4 d-flex align-items-end">
+            <p class="paragraph my-5">&copy; 2023 All rights are reserved | Team Moro</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </main>
+  <script src="./src/vendors/bootstrap/js/bootstrap.min.js"></script>
+  <script src="./src/vendors/jquary/jquery-3.7.0.min.js"></script>
+  <script src="./src/vendors/owl-carousal/owl.carousel.min.js"></script>
+  <script src="https://unpkg.com/ityped@1.0.2"></script>
+  <script src="./build/js/script.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+    ityped.init('#ityped', {
+    strings: ['Design, Branding', 'Advertising Company!'],
+    typeSpeed: 120,
+    backSpeed: 100,
+    backDelay: 500,
+    startDelay: 500
+  });
+  </script>
 </body>
+
 </html>

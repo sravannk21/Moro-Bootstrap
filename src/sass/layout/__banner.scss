@@ -1,0 +1,8 @@
+.banner {
+    background-image: linear-gradient(to right, rgba($color-black, .6), rgba($color-black, .6)), url('/build/img/banner-bg.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.pagenav {
+    height: 30rem;
+}

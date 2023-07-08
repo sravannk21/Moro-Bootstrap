@@ -1,0 +1,26 @@
+.our-services {
+    background-image: url('/build/img/bg-service.jpg');
+    background-position: center;
+    background-size: cover;
+
+    &__service-box {
+        background-color: $color-white;
+        box-shadow: 1px 1px 11px 2px rgba(0, 0, 0, 0.3);
+        -webkit-box-shadow: 1px 1px 11px 2px rgba(0, 0, 0, 0.3);
+        -moz-box-shadow: 1px 1px 11px 2px rgba(0, 0, 0, 0.3);
+        border-radius: .5rem;
+        background-color: transparent;
+        transition: all .3s;
+        cursor: pointer;
+
+        &:hover {
+            color: $color-white;
+            background-color: $color-black;
+        }
+    }
+}
+.decorative-box{
+    background-color: red;
+    height: 24rem;
+    border-radius: .5rem;
+}
